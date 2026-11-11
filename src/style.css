@@ -40,12 +40,12 @@ label input,select
    
 
 }
-input:not([type="checkbox"]):not([type="radio"]),
-select {
+input, select {
     padding: 8px;
     border-radius: 5px;
     border: 2px solid green;
     outline: none;
+    color: rgb(77, 230, 77);
 }
 button {
     background-color: rgb(116, 219, 116);
@@ -66,4 +66,5 @@ button:hover {
 input[type="checkbox"],
 input[type="radio"] {
     accent-color: green;
+
 }
